@@ -1,0 +1,40 @@
+<!-- COMPATIBILIDAD HTML 5 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CONFIGURAR LA CODIFICACION-->
+	<meta charset="utf-8" />
+	<title>My title</title>
+		<!-- LLAMADO A LA FUNCION JAVA SCRIPT-->
+	<script type="text/javascript" src="js/ahorcadoController.js">
+	</script>
+
+	<!-- LLAMADO AL ESTILO DE LA APLICACION WEB -->		
+	<link rel="stylesheet" type="text/css" href="css/styleAhorcado.css">
+
+</head>
+<!-- CUERPO DEL DOCUMENTO -->
+<body>
+<header>
+	<nav><p>TRADICIONAL JUEGO DEL AHORCADO</p></nav>
+</header>
+	
+	<h1>AHORCADO</h1>
+<p>
+	Elije una LETRA cualquiera:
+	<input type="text" id="txtLetra"/>
+	<input type="button" id="btnSeleccionarLetra" value="Seleccionar letra" />
+
+	</br>
+	<h2 id="txtPista"></h2></br></br>
+	<h2 id ="txtPistaTmp"></h2>
+</p>
+	<!-- agregando el CANVAS-->
+	<canvas id="canvasAhorcado"></canvas><br/>
+
+<script type="text/javascript">
+	callAhorcadoMain();
+</script>
+
+</body>
+</html>
