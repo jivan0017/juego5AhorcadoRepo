@@ -103,7 +103,7 @@ function evento1(){
 			// DIBUJAR PARTE AHORCADO   <====   ir dibujando las partes
 		    objeto1.trazarAhorcado();
 		    //objeto1.maximo--;
-		    alert("INTENTO FALLIDO, LE QUEDAN: " + (objeto1.maximo-1) + " intentos...");
+		    alert("INTENTO FALLIDO, LE QUEDAN: " + (objeto1.maximo-1) + " INTENTOS...");
 			//objeto1.dibujarAhorcado();
 		   if (objeto1.vivo == false){
 			     	alert ("FINAL DEL JUEGO, HAS QUEDADO:  AHORCADO, TU MEMORIA ES DE:  POLLO,  \n Nuevamente se eligirá una palabra al azar, buena suerte...");
