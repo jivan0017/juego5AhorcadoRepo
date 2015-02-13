@@ -100,11 +100,9 @@ function evento1(){
 
 			// objeto1.mostrarPistaPalabra(espacio);
 		 }else {
-<<<<<<< HEAD
-			// DIBUJAR PARTE AHORCADO   <====   ir dibujando las partes
-=======
+
 			// DIBUJAR PARTE AHORCADO   <====   ir dibujando las partes.
->>>>>>> origin/gh-pages
+
 		    objeto1.trazarAhorcado();
 		    //objeto1.maximo--;
 		    alert("INTENTO FALLIDO, VA EN EL INTENTO:  " + (objeto1.intentos) + ", solo tiene 5 intentos!");
