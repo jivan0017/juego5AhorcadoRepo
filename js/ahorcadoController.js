@@ -144,30 +144,11 @@ function evento1(){
 	//objeto1.dibujarAhorcado();
 }
 
-<<<<<<< HEAD
+
 var valorUsuario=0;
 do{
 	valorUsuario = prompt("elije valores entre [ 0 - 4 ]");
 } while (valorUsuario < 0 || valorUsuario > 4);
-=======
-
-var ClassRandonNumber = function(){
-	//variable blogal para la funcion
-	this.resultadoGeneral = 0;
-}
-
-ClassRandonNumber.prototype.generarNumeroAleatorio = function(minimo,maximo){
-    var numeroAretornar = Math.floor( Math.random() * (maximo - minimo + 1) + minimo );
-    //se asigna al atributo de la clase o funcion el valor generado
-    this.resultadoGeneral = numeroAretornar;	
-}
-
-var objetoRandom = new ClassRandonNumber();
-
-//genera numeros aleatorios entre [0 - 8]
-objetoRandom.generarNumeroAleatorio(1,8);
->>>>>>> origin/gh-pages
-
 
 
 //DECLARACION DE CLASES EN JAVA SCRIPT:
@@ -404,8 +385,5 @@ function retornaNumeroAleatorio(minimo, maximo)
 	//variable que captura una referencia de un numero aleatorio en un rango definido
     var numero = Math.floor( Math.random() * (maximo - minimo + 1) + minimo );
     return numero;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/gh-pages
+
